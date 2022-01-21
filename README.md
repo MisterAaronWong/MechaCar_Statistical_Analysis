@@ -26,7 +26,7 @@ A T-Test of the suspension coils was also performed on the lots as a whole.  The
 
 ![ttest](Resources/ttest.png)
 
-Additionally, T-Tests were performed on each individual lot. The goal of these T-Tests were to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 PSI.
+Additionally, T-Tests were performed on each individual lot. The goal of these T-Tests were to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 PSI. This resulted in a p-value higher than the significance level for for Lots 1 and 2, but a lower p-value than the significance level for Lot 3. The sampled mean for all three were very close to the population mean of 1500 PSI. Lot 1's mean was exactly the same, Lot 2's mean was ever-so-slightly above, and Lot 3's mean was still relatively close. In conclusion, this means the PSI for each manufacturing lot is NOT statisically different from the population mean. See the below image for a detailed breakdown: 
 
 ![lotttest](Resources/lotttest.png)
 
