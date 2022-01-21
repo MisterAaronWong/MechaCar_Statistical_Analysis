@@ -31,10 +31,4 @@ Additionally, T-Tests were performed on each individual lot. The goal of these T
 ![lotttest](Resources/lotttest.png)
 
 ## Study Design: MechaCar vs Competition
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+There are many factors/variables that can and should be analyzed when comparing how MechaCar would stack up to the competition. These metrics include the cost of the car, city or highway fuel efficiency, horse power, maintenance cost, and safety rating. Since there are so many variables to test for, it would be recommended to use an ANOVA test. The null hypothesis that would be proposed would be that MechaCar is on par with the competition based on having similar statistics in these categories of metrics.
