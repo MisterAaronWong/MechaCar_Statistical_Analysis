@@ -22,11 +22,11 @@ When looking at each of the 3 lots individually however, we can see that Lot 3 s
 ![lot](Resources/lot.png)
 
 ## T-Tests on Suspension Coils
-A T-Test of the suspension coils was also performed on the lots as a whole.
+A T-Test of the suspension coils was also performed on the lots as a whole.  The goal was to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 PSI.
 
 ![ttest](Resources/ttest.png)
 
-Addtionally, T-Tests were performed on each individual lot.
+Additionally, T-Tests were performed on each individual lot. The goal of these T-Tests were to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 PSI.
 
 ![lotttest](Resources/lotttest.png)
 
