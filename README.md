@@ -22,9 +22,11 @@ When looking at each of the 3 lots individually however, we can see that Lot 3 s
 ![lot](Resources/lot.png)
 
 ## T-Tests on Suspension Coils
-briefly summarize your interpretation and findings for the t-test results.
+A T-Test of the suspension coils was also performed on the lots as a whole.
 
 ![ttest](Resources/ttest.png)
+
+Addtionally, T-Tests were performed on each individual lot.
 
 ![lotttest](Resources/lotttest.png)
 
