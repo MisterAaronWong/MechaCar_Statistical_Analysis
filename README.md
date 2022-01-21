@@ -31,7 +31,9 @@ Additionally, T-Tests were performed on each individual lot. The goal of these T
 ![lotttest](Resources/lotttest.png)
 
 ## Study Design: MechaCar vs Competition
-There are many factors/variables that can and should be analyzed when comparing how MechaCar would stack up to the competition. These metrics include the cost of the car, city or highway fuel efficiency, horse power, maintenance cost, and safety rating. Since there are so many variables to test for, it would be recommended to use an ANOVA test. An ANOVA test would test for the means of each category and also reveal if the p-values for each variable is above or lower than the 0.05 significance level threshold.
+There are many factors/variables that can and should be analyzed when comparing how MechaCar would stack up to the competition. These metrics include the data for cost of the car, city or highway fuel efficiency, horse power, maintenance cost, and safety rating. To keep the integrity of the test as accurate as possible, the comparison should only focus on a select range of recent car model years (perhaps within the past 3-5 years) and car models that belong to a similar class (sedan, SUV, truck, etc.).
+
+Since there are so many variables to test for, it would be recommended to use an ANOVA test. An ANOVA test would test for the means of each category and also reveal if the p-values for each variable is above or lower than the 0.05 significance level threshold.
 
 The null hypothesis that would be proposed would be that MechaCar is on par with the competition based on having similar statistics in these categories of metrics. The alternative hypothesis is that MechaCar is NOT on par with the competition. 
 
