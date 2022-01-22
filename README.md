@@ -2,9 +2,9 @@
 
 ## Linear Regression to Predict MPG
 
-After running a linear regression model on the data, it appears that the variables/coefficents of the vehicle length and the vehicle ground clearance provided non-random amounts of variance to the mpg values in the dataset. That is to say, the vehicle length and vehicle ground clearance have a significant impact on miles per gallon on the MechaCar prototype. Conversely, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-Values that indicate a random amount of variance with the dataset.
+After running a linear regression model on the data, it appears that the variables/coefficients of the vehicle length and the vehicle ground clearance provided non-random amounts of variance to the mpg values in the dataset. That is to say, the vehicle length and vehicle ground clearance have a significant impact on miles per gallon on the MechaCar prototype. Conversely, the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have p-values that indicate a random amount of variance with the dataset.
 
-The p-value is 5.35e-11 (0.0000000000535) which is less than the significant level of 0.05. Due to this, the slope is not equal to zero and there is sufficent statistical evidence to reject the null hypothesis.
+The p-value is 5.35e-11, which is less than the significant level of 0.05. Due to this, the slope is not equal to zero and there is sufficent statistical evidence to reject the null hypothesis.
 
 The r-squared value of this model is 0.7149. This indicates that approximately 72% (if rounded) of all predictions of the mpg of MechaCar prototypes will be correct.
 
@@ -22,7 +22,7 @@ When looking at each of the 3 lots individually however, we can see that Lot 3 s
 ![lot](Resources/lot.png)
 
 ## T-Tests on Suspension Coils
-A T-Test of the suspension coils was also performed on the lots as a whole.  The goal was to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 PSI. The T-Test performed on all three lots resulted in a p-value of 0.06, which is higher than the significance value of 0.05. This indicates that there is not enough evidence to reject the null hypothesis, thus we fail to reject the null hypothesis. Additionally, the mean is 1498.78, which is just under the population mean of 15000 PSI. As such, the PSI across all manufacturing lots is NOT statisically differenet from the population mean.
+A T-Test of the suspension coils was also performed on the lots as a whole.  The goal was to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 PSI. The T-Test performed on all three lots resulted in a p-value of 0.06, which is higher than the significance value of 0.05. This indicates that there is not enough evidence to reject the null hypothesis, thus we fail to reject the null hypothesis. Additionally, the mean is 1498.78, which is just under the population mean of 1500 PSI. As such, the PSI across all manufacturing lots is NOT statisically differenet from the population mean.
 
 ![ttest](Resources/ttest.png)
 
